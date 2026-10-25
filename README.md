@@ -3,7 +3,7 @@
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/izzpaiizzz) [![TikTok](https://img.shields.io/badge/TikTok-000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://tiktok.com/@izzpaiizzz) [![YouTube](https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@izzpaiiizzzz) [![Gmail](https://img.shields.io/badge/GMail-34A853.svg?style=for-the-badge&logo=GMail&logoColor=white)](mailto:faizsyaifulwafa@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/) [![Gmail](https://img.shields.io/badge/GMail-34A853.svg?style=for-the-badge&logo=GMail&logoColor=white)](mailto:faizsyaifulwafa@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/izzpaiizzz) [![TikTok](https://img.shields.io/badge/TikTok-000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://tiktok.com/@izzpaiizzz) [![YouTube](https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@izzpaiiizzzz) 
 
 ## 💻 What I'm learning:
 #### Languages
