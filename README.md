@@ -9,7 +9,7 @@
 ---
 
 # 🌿 About Me:
-`🐱| I Love Cats.`
+`🐱| I Love Cats.`<br>
 `🎯| Be rich, richer than Elon Musk.`
 `🚀| Always Exploring & Learning.`
 
