@@ -2,9 +2,7 @@
 
 # Hi there! 👋 I'm Faiz Syaiful Wafa
 
-<p align="center">
   **`Frontend Developer in training & Tech Enthusiast`**
-</p>
 
 </div>
 
