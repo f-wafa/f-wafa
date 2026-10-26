@@ -5,24 +5,12 @@
   *`Frontend Developer in training & Tech Enthusiast`*
 
 ---
-  <a href="https://buymeacoffee.com/izzpaiizzz">
-    <img src="https://img.shields.io/badge/Donate-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
-  </a>
-  <a href="https://www.linkedin.com/in/faiz-syaiful-wafa">
-    <img src="https://img.shields.io/badge/LinkedIn-0D1017?style=for-the-badge&logo=LinkedIn&logoColor=0A66C2" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:faizsyaifulwafa@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-0D1017?style=for-the-badge&logo=GMail&logoColor=EA4335" alt="Gmail"/>
-  </a>
-  <a href="https://instagram.com/izzpaiizzz">
-    <img src="https://img.shields.io/badge/Instagram-0D1017?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/>
-  </a>
-  <a href="https://tiktok.com/@izzpaiizzz">
-    <img src="https://img.shields.io/badge/TikTok-0D1017?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
-  </a>
-  <a href="https://youtube.com/@izzpaiiizzzz">
-    <img src="https://img.shields.io/badge/YouTube-0D1017?style=for-the-badge&logo=YouTube&logoColor=FF0000" alt="YouTube"/>
-  </a>
+  <a href="https://buymeacoffee.com/izzpaiizzz"><img src="https://img.shields.io/badge/Donate-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/></a>
+  <a href="https://www.linkedin.com/in/faiz-syaiful-wafa"><img src="https://img.shields.io/badge/LinkedIn-0D1017?style=for-the-badge&logo=LinkedIn&logoColor=0A66C2" alt="LinkedIn"/></a>
+  <a href="mailto:faizsyaifulwafa@gmail.com"><img src="https://img.shields.io/badge/Gmail-0D1017?style=for-the-badge&logo=GMail&logoColor=EA4335" alt="Gmail"/></a>
+  <a href="https://instagram.com/izzpaiizzz"><img src="https://img.shields.io/badge/Instagram-0D1017?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/></a>
+  <a href="https://tiktok.com/@izzpaiizzz"><img src="https://img.shields.io/badge/TikTok-0D1017?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/></a>
+  <a href="https://youtube.com/@izzpaiiizzzz"><img src="https://img.shields.io/badge/YouTube-0D1017?style=for-the-badge&logo=YouTube&logoColor=FF0000" alt="YouTube"/></a>
 </div>
 
 ---
