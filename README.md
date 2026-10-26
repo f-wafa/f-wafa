@@ -52,12 +52,11 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=f-wafa&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <br/><br/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=f-wafa&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f-wafa&theme=radical&hide_border=true" alt="GitHub Streak" />
-</div>
+  <img src="https://github-readme-stats.shion.dev/api?username=f-wafa&theme=jolly&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=f-wafa&layout=compact&theme=jolly&hide_border=true" alt="Top Languages" />
 
 ---
+
+## 🔥 GitHub Streaks
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=f-wafa&theme=jolly&hide_border=true" alt="GitHub Streak" />
