@@ -58,7 +58,7 @@
 ## 🌐 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/FAIS-SYAIFUL-WAFA"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/faiz-syaiful-wafa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:faizsyaifulwafa@gmail.com"><img src="https://img.shields.io/badge/Gmail-34A853.svg?style=for-the-badge&logo=GMail&logoColor=white" alt="Gmail"/></a>
   <a href="https://instagram.com/izzpaiizzz"><img src="https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="https://tiktok.com/@izzpaiizzz"><img src="https://img.shields.io/badge/TikTok-000000.svg?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/></a>
