@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there! 👋 I'm Faiz Syaiful Wafa
+# **`Hi there! 👋 I'm Faiz Syaiful Wafa`**
 
   **`Frontend Developer in training & Tech Enthusiast`**
 
