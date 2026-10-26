@@ -59,7 +59,7 @@
   <br/><br/>
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=f-wafa&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f-wafa&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f-wafa&theme=violet&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ----
