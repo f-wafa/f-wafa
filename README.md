@@ -4,7 +4,7 @@
 
   *`Frontend Developer in training & Tech Enthusiast`*
 
---
+---
 <a href="https://buymeacoffee.com/izzpaiizzz">
     <img src="https://img.shields.io/badge/Donate-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
   </a>
