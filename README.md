@@ -11,7 +11,7 @@
 ---
 
 # 🌿 About Me:
-🐱| I Love Cats. <br>🎯| Be rich, richer than Elon Musk.<br>🚀| Always Exploring & Learning.[span_1](start_span)[span_1](end_span)
+🐱| I Love Cats. <br>🎯| Be rich, richer than Elon Musk.<br>🚀| Always Exploring & Learning.
 
 ---
 
