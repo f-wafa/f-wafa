@@ -3,7 +3,7 @@
 # Hi there! 👋 I'm Faiz Syaiful Wafa
 
 <p align="center">
-  <em>Frontend Developer in training & Tech Enthusiast</em>
+  <em>`Frontend Developer in training & Tech Enthusiast`</em>
 </p>
 
 </div>
