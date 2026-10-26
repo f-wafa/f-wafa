@@ -3,6 +3,7 @@
 # `Hi there! 👋 I'm Faiz`
 
   *`Frontend Developer in training & Tech Enthusiast`*
+
 <a href="https://buymeacoffee.com/izzpaiizzz">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
   </a>
