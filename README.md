@@ -1,7 +1,6 @@
 <div align="center">
 
 # `Hi there! 👋 I'm Faiz`
-
   *`Frontend Developer in training & Tech Enthusiast`*
 
 ---
