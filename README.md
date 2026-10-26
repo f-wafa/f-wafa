@@ -5,9 +5,7 @@
   *`Frontend Developer in training & Tech Enthusiast`*
 
 ---
-  <a href="https://buymeacoffee.com/izzpaiizzz">
-    <img src="https://img.shields.io/badge/Donate-0A66C2?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Buy Me A Coffee"/>
-  </a>
+  <a href="https://www.linkedin.com/in/faiz-syaiful-wafa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://www.linkedin.com/in/faiz-syaiful-wafa">
     <img src="https://img.shields.io/badge/LinkedIn-0D1017?style=for-the-badge&logo=LinkedIn&logoColor=0A66C2" alt="LinkedIn"/>
   </a>
