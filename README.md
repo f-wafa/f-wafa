@@ -2,7 +2,7 @@
 
 # `Hi there! 👋 I'm Faiz`
 
-  **`Frontend Developer in training & Tech Enthusiast`**
+  *`Frontend Developer in training & Tech Enthusiast`*
 
 </div>
 
