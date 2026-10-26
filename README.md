@@ -5,14 +5,24 @@
   *`Frontend Developer in training & Tech Enthusiast`*
 
 ---
-<a href="https://buymeacoffee.com/izzpaiizzz">
-    <img src="https://img.shields.io/badge/Donate-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
+  <a href="https://buymeacoffee.com/izzpaiizzz">
+    <img src="https://img.shields.io/badge/Donate-0A66C2?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Buy Me A Coffee"/>
   </a>
-<a href="https://www.linkedin.com/in/faiz-syaiful-wafa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:faizsyaifulwafa@gmail.com"><img src="https://img.shields.io/badge/Gmail-34A853.svg?style=for-the-badge&logo=GMail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://instagram.com/izzpaiizzz"><img src="https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="https://tiktok.com/@izzpaiizzz"><img src="https://img.shields.io/badge/TikTok-000000.svg?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/></a>
-  <a href="https://youtube.com/@izzpaiiizzzz"><img src="https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube"/></a>
+  <a href="https://www.linkedin.com/in/faiz-syaiful-wafa">
+    <img src="https://img.shields.io/badge/LinkedIn-0D1017?style=for-the-badge&logo=LinkedIn&logoColor=0A66C2" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:faizsyaifulwafa@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-0D1017?style=for-the-badge&logo=GMail&logoColor=EA4335" alt="Gmail"/>
+  </a>
+  <a href="https://instagram.com/izzpaiizzz">
+    <img src="https://img.shields.io/badge/Instagram-0D1017?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/>
+  </a>
+  <a href="https://tiktok.com/@izzpaiizzz">
+    <img src="https://img.shields.io/badge/TikTok-0D1017?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+  </a>
+  <a href="https://youtube.com/@izzpaiiizzzz">
+    <img src="https://img.shields.io/badge/YouTube-0D1017?style=for-the-badge&logo=YouTube&logoColor=FF0000" alt="YouTube"/>
+  </a>
 </div>
 
 ---
@@ -55,11 +65,11 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=f-wafa&theme=dark&hide_border=true&include_all_commits=false&count_private=false" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.shion.dev/api?username=f-wafa&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <br/><br/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=f-wafa&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=f-wafa&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f-wafa&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f-wafa&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
 
-----
+---
