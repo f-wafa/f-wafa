@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title">
+  <title id="title">React Dashboard Kit — abstract preview</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#131c2b"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 150h1200M0 300h1200M0 450h1200M0 600h1200"/>
+    <path d="M150 0v750M300 0v750M450 0v750M600 0v750M750 0v750M900 0v750M1050 0v750"/>
+  </g>
+  <circle cx="980" cy="120" r="220" fill="#34d399" opacity=".1" filter="url(#glow)"/>
+
+  <!-- window -->
+  <g transform="translate(90 80)">
+    <rect width="1020" height="590" rx="18" fill="#0f1725" stroke="#243044"/>
+    <rect width="1020" height="46" rx="18" fill="#151f2f"/>
+    <rect y="28" width="1020" height="18" fill="#151f2f"/>
+    <circle cx="26" cy="23" r="6" fill="#ff5f57"/>
+    <circle cx="48" cy="23" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="23" r="6" fill="#28c840"/>
+    <rect x="410" y="15" width="200" height="16" rx="8" fill="#1e293b"/>
+    <text x="510" y="27" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="11">dashboard / overview</text>
+
+    <!-- sidebar -->
+    <rect x="0" y="46" width="210" height="544" fill="#0c1421"/>
+    <rect x="0" y="46" width="1" height="544" fill="#243044"/>
+    <g transform="translate(28 82)">
+      <rect width="34" height="34" rx="10" fill="#34d399" opacity=".15"/>
+      <path d="M10 12l-5 5 5 5M24 12l5 5-5 5M20 8l-4 18" stroke="#34d399" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="46" y="15" fill="#e2e8f0" font-family="monospace" font-size="13" font-weight="700">kit.dev</text>
+      <text x="46" y="30" fill="#64748b" font-family="monospace" font-size="9">workspace</text>
+    </g>
+    <g transform="translate(20 170)" font-family="monospace" font-size="11">
+      <rect width="170" height="36" rx="9" fill="#34d399" opacity=".12"/>
+      <rect x="14" y="13" width="12" height="12" rx="3" fill="#34d399"/>
+      <text x="38" y="23" fill="#a7f3d0">Overview</text>
+      <g fill="#64748b">
+        <rect x="14" y="49" width="12" height="12" rx="3" fill="#334155"/><text x="38" y="59">Analytics</text>
+        <rect x="14" y="85" width="12" height="12" rx="3" fill="#334155"/><text x="38" y="95">Customers</text>
+        <rect x="14" y="121" width="12" height="12" rx="3" fill="#334155"/><text x="38" y="131">Components</text>
+        <rect x="14" y="157" width="12" height="12" rx="3" fill="#334155"/><text x="38" y="167">Settings</text>
+      </g>
+    </g>
+    <g transform="translate(20 520)">
+      <rect width="170" height="44" rx="10" fill="#111c2b" stroke="#243044"/>
+      <circle cx="24" cy="22" r="10" fill="#2dd4bf" opacity=".25"/>
+      <text x="44" y="20" fill="#cbd5e1" font-family="monospace" font-size="9">Faiz</text>
+      <text x="44" y="32" fill="#64748b" font-family="monospace" font-size="8">frontend dev</text>
+    </g>
+
+    <!-- main -->
+    <g transform="translate(240 78)">
+      <text x="0" y="10" fill="#f1f5f9" font-family="sans-serif" font-size="20" font-weight="700">Overview</text>
+      <text x="0" y="32" fill="#64748b" font-family="monospace" font-size="10">a typed dashboard shell for learning architecture</text>
+      <rect x="540" y="-6" width="110" height="30" rx="8" fill="#34d399"/>
+      <text x="595" y="13" text-anchor="middle" fill="#04231a" font-family="monospace" font-size="10" font-weight="700">+ New report</text>
+      <rect x="662" y="-6" width="78" height="30" rx="8" fill="none" stroke="#2b3a4f"/>
+      <text x="701" y="13" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="10">Export</text>
+
+      <!-- stat cards -->
+      <g transform="translate(0 58)">
+        <g>
+          <rect width="228" height="88" rx="12" fill="#111c2b" stroke="#243044"/>
+          <text x="18" y="24" fill="#64748b" font-family="monospace" font-size="9">TOTAL VISITS</text>
+          <text x="18" y="54" fill="#f1f5f9" font-family="sans-serif" font-size="24" font-weight="700">48,210</text>
+          <text x="18" y="72" fill="#34d399" font-family="monospace" font-size="9">↑ 12.4% this week</text>
+        </g>
+        <g transform="translate(246 0)">
+          <rect width="228" height="88" rx="12" fill="#111c2b" stroke="#243044"/>
+          <text x="18" y="24" fill="#64748b" font-family="monospace" font-size="9">COMPONENTS</text>
+          <text x="18" y="54" fill="#f1f5f9" font-family="sans-serif" font-size="24" font-weight="700">126</text>
+          <text x="18" y="72" fill="#2dd4bf" font-family="monospace" font-size="9">32 typed primitives</text>
+        </g>
+        <g transform="translate(492 0)">
+          <rect width="228" height="88" rx="12" fill="#111c2b" stroke="#243044"/>
+          <text x="18" y="24" fill="#64748b" font-family="monospace" font-size="9">BUILD TIME</text>
+          <text x="18" y="54" fill="#f1f5f9" font-family="sans-serif" font-size="24" font-weight="700">1.2s</text>
+          <text x="18" y="72" fill="#a78bfa" font-family="monospace" font-size="9">next build ✓</text>
+        </g>
+      </g>
+
+      <!-- chart -->
+      <g transform="translate(0 166)">
+        <rect width="474" height="230" rx="12" fill="#111c2b" stroke="#243044"/>
+        <text x="18" y="28" fill="#e2e8f0" font-family="monospace" font-size="11">Traffic</text>
+        <text x="456" y="28" text-anchor="end" fill="#64748b" font-family="monospace" font-size="9">last 30 days</text>
+        <g stroke="#1e2b3d" stroke-width="1">
+          <path d="M18 76h438M18 120h438M18 164h438M18 208h438"/>
+        </g>
+        <path d="M18 190 58 172 98 178 138 146 178 154 218 122 258 132 298 100 338 112 378 78 418 88 456 58 456 208 18 208Z" fill="url(#area)"/>
+        <path d="M18 190 58 172 98 178 138 146 178 154 218 122 258 132 298 100 338 112 378 78 418 88 456 58" fill="none" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="456" cy="58" r="4" fill="#34d399"/>
+      </g>
+
+      <!-- bars -->
+      <g transform="translate(494 166)">
+        <rect width="226" height="230" rx="12" fill="#111c2b" stroke="#243044"/>
+        <text x="18" y="28" fill="#e2e8f0" font-family="monospace" font-size="11">Stack</text>
+        <g transform="translate(18 48)">
+          <rect width="60" height="160" rx="6" fill="#16233a"/>
+          <rect y="60" width="60" height="100" rx="6" fill="#34d399" opacity=".85"/>
+          <rect x="78" width="60" height="160" rx="6" fill="#16233a"/>
+          <rect x="78" y="34" width="60" height="126" rx="6" fill="#2dd4bf" opacity=".7"/>
+          <rect x="156" width="34" height="160" rx="6" fill="#16233a"/>
+          <rect x="156" y="86" width="34" height="74" rx="6" fill="#818cf8" opacity=".7"/>
+        </g>
+        <g transform="translate(18 222)" font-family="monospace" font-size="8" fill="#64748b">
+          <text x="10">TS</text><text x="94">React</text><text x="164">CSS</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

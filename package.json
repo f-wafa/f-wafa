@@ -1,0 +1,15 @@
+{
+  "name": "f-wafa-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio website of Faiz Syaiful Wafa — built with semantic HTML, Tailwind CSS and vanilla JavaScript.",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "serve": "node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

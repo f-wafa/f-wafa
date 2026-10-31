@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume — Faiz Syaiful Wafa</title>
+    <meta
+      name="description"
+      content="Resume of Faiz Syaiful Wafa — frontend developer in training. Skills, projects, and contact details."
+    />
+    <meta name="theme-color" content="#0d1017" id="theme-color" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script>
+      (() => {
+        const key = "fw-theme";
+        let theme = null;
+        try {
+          theme = localStorage.getItem(key);
+        } catch (_) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        document.documentElement.classList.toggle("dark", theme === "dark");
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+  </head>
+
+  <body class="bg-canvas">
+    <div class="container-page max-w-4xl py-6 sm:py-10">
+      <div class="no-print flex flex-wrap items-center justify-between gap-3">
+        <a
+          href="index.html"
+          class="inline-flex items-center gap-2 text-sm font-medium text-muted transition hover:text-accent"
+        >
+          <svg class="size-4" aria-hidden="true"><use href="#i-arrow-left" /></svg>
+          Back to portfolio
+        </a>
+        <div class="flex items-center gap-2">
+          <button
+            type="button"
+            class="icon-btn"
+            data-theme-toggle
+            aria-label="Switch to light mode"
+            aria-pressed="false"
+          >
+            <svg class="icon-moon size-[18px]" aria-hidden="true"><use href="#i-moon" /></svg>
+            <svg class="icon-sun size-[18px]" aria-hidden="true"><use href="#i-sun" /></svg>
+          </button>
+          <button type="button" class="btn btn-primary !px-4 !py-2.5 !text-xs" data-print>
+            <svg class="size-4" aria-hidden="true"><use href="#i-printer" /></svg>
+            Save as PDF
+          </button>
+        </div>
+      </div>
+
+      <p class="no-print mt-3 text-center font-mono text-[0.6rem] text-faint">
+        Tip: in the print dialog, choose “Save as PDF” as the destination.
+      </p>
+
+      <main>
+        <article class="print-card card mt-6 overflow-hidden">
+          <!-- Header -->
+          <header class="relative overflow-hidden border-b border-line p-6 sm:p-8">
+            <div class="dot-grid pointer-events-none absolute inset-0 opacity-50" aria-hidden="true"></div>
+            <div
+              class="pointer-events-none absolute -right-10 -top-16 size-48 rounded-full bg-accent/10 blur-3xl"
+              aria-hidden="true"
+            ></div>
+
+            <div class="relative flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+              <div class="flex items-center gap-4">
+                <div
+                  class="grid size-16 shrink-0 place-items-center rounded-2xl bg-gradient-to-br from-accent to-accent-2 font-display text-xl font-bold text-on-accent shadow-lg"
+                  aria-hidden="true"
+                >
+                  FW
+                </div>
+                <div>
+                  <h1 class="font-display text-2xl font-bold tracking-tight sm:text-3xl">
+                    Faiz Syaiful Wafa
+                  </h1>
+                  <p class="mt-1 font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                    Frontend Developer in Training
+                  </p>
+                </div>
+              </div>
+              <div class="text-sm sm:text-right">
+                <p class="inline-flex items-center gap-2 text-muted">
+                  <svg class="size-3.5 shrink-0" aria-hidden="true"><use href="#i-map-pin" /></svg>
+                  Indonesia · WIB (UTC+7)
+                </p>
+                <p class="mt-1 inline-flex items-center gap-2 text-muted">
+                  <svg class="size-3.5 shrink-0" aria-hidden="true"><use href="#i-mail" /></svg>
+                  <a href="mailto:faizsyaifulwafa@gmail.com" class="link-underline !text-ink"
+                    >faizsyaifulwafa@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <ul class="relative mt-6 flex flex-wrap gap-x-5 gap-y-2 font-mono text-[0.7rem] text-muted">
+              <li>
+                <a
+                  href="https://f-wafa.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1.5 transition hover:text-accent"
+                >
+                  <svg class="size-3.5" aria-hidden="true"><use href="#i-external-link" /></svg>
+                  f-wafa.github.io
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/f-wafa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1.5 transition hover:text-accent"
+                >
+                  <svg class="size-3.5" aria-hidden="true"><use href="#b-github" /></svg>
+                  github.com/f-wafa
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/faiz-syaiful-wafa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1.5 transition hover:text-accent"
+                >
+                  <svg class="size-3.5" aria-hidden="true"><use href="#b-linkedin" /></svg>
+                  in/faiz-syaiful-wafa
+                </a>
+              </li>
+            </ul>
+          </header>
+
+          <div class="space-y-8 p-6 sm:p-8">
+            <!-- Summary -->
+            <section class="print-break" aria-labelledby="summary-heading">
+              <h2 id="summary-heading" class="resume-heading">Summary</h2>
+              <p class="mt-3 text-sm leading-relaxed text-muted">
+                Frontend developer in training with a focus on semantic HTML, modern CSS,
+                JavaScript/TypeScript, and component-driven UI. I build small, complete projects to
+                learn how the web works end to end — from accessibility and performance to
+                deployment. Curious by default, consistent by habit, and always shipping something.
+              </p>
+            </section>
+
+            <!-- Skills -->
+            <section class="print-break" aria-labelledby="skills-heading">
+              <h2 id="skills-heading" class="resume-heading">Skills</h2>
+              <div class="mt-3 grid gap-3 sm:grid-cols-2">
+                <div class="rounded-xl border border-line bg-canvas/60 p-4">
+                  <p class="font-mono text-[0.62rem] uppercase tracking-[0.16em] text-faint">
+                    Languages &amp; frontend
+                  </p>
+                  <p class="mt-2 text-sm leading-relaxed">
+                    HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Next.js, Tailwind CSS,
+                    Markdown
+                  </p>
+                </div>
+                <div class="rounded-xl border border-line bg-canvas/60 p-4">
+                  <p class="font-mono text-[0.62rem] uppercase tracking-[0.16em] text-faint">
+                    Backend, tools &amp; platforms
+                  </p>
+                  <p class="mt-2 text-sm leading-relaxed">
+                    Node.js, MongoDB (basics), Git, GitHub, npm, Figma, Canva, Vercel, GitHub Pages
+                  </p>
+                </div>
+              </div>
+              <ul class="mt-3 flex flex-wrap gap-1.5">
+                <li class="chip">Responsive design</li>
+                <li class="chip">Semantic HTML</li>
+                <li class="chip">Accessibility</li>
+                <li class="chip">REST APIs</li>
+                <li class="chip">Git workflow</li>
+                <li class="chip">Performance basics</li>
+              </ul>
+            </section>
+
+            <!-- Projects -->
+            <section class="print-break" aria-labelledby="projects-heading">
+              <h2 id="projects-heading" class="resume-heading">Selected projects</h2>
+
+              <div class="mt-4 space-y-5">
+                <div>
+                  <div class="flex flex-wrap items-baseline justify-between gap-2">
+                    <h3 class="font-display text-base font-semibold">
+                      <a
+                        href="https://f-wafa.github.io/code-to-snippet/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-1.5 transition hover:text-accent"
+                        >code-to-snippet
+                        <svg class="size-3.5 text-faint" aria-hidden="true"><use href="#i-arrow-up-right" /></svg
+                      ></a>
+                    </h3>
+                    <p class="font-mono text-[0.62rem] text-faint">2026 · Vanilla JS</p>
+                  </div>
+                  <p class="mt-1.5 text-sm leading-relaxed text-muted">
+                    A fully client-side tool that converts plain code into VS Code snippet JSON.
+                    Handles escaping for <code class="font-mono text-[0.78rem] text-ink">$</code> and
+                    <code class="font-mono text-[0.78rem] text-ink">\</code>, supports placeholders,
+                    syntax-highlighted output, copy, and <code class="font-mono text-[0.78rem] text-ink">.code-snippets</code>
+                    download.
+                  </p>
+                  <p class="mt-1.5 font-mono text-[0.62rem] text-faint">
+                    Live: f-wafa.github.io/code-to-snippet · Code: github.com/f-wafa/code-to-snippet
+                  </p>
+                </div>
+
+                <div>
+                  <div class="flex flex-wrap items-baseline justify-between gap-2">
+                    <h3 class="font-display text-base font-semibold">
+                      <a
+                        href="https://f-wafa.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-1.5 transition hover:text-accent"
+                        >portfolio v1
+                        <svg class="size-3.5 text-faint" aria-hidden="true"><use href="#i-arrow-up-right" /></svg
+                      ></a>
+                    </h3>
+                    <p class="font-mono text-[0.62rem] text-faint">2026 · Tailwind CSS, Vanilla JS</p>
+                  </div>
+                  <p class="mt-1.5 text-sm leading-relaxed text-muted">
+                    A single-page portfolio with a hand-rolled dark/light theme system, command
+                    palette, project filtering, accessible components, and zero runtime
+                    dependencies.
+                  </p>
+                  <p class="mt-1.5 font-mono text-[0.62rem] text-faint">
+                    Live: f-wafa.github.io · Code: github.com/f-wafa/f-wafa
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!-- Learning journey -->
+            <section class="print-break" aria-labelledby="learning-heading">
+              <h2 id="learning-heading" class="resume-heading">Learning journey</h2>
+              <ol class="mt-3 space-y-3">
+                <li class="flex gap-3">
+                  <span class="mt-1.5 size-2 shrink-0 rounded-full bg-accent" aria-hidden="true"></span>
+                  <div>
+                    <p class="text-sm font-medium">Self-directed web development · 2025 – present</p>
+                    <p class="mt-0.5 text-sm leading-relaxed text-muted">
+                      Studying frontend fundamentals through documentation, small builds, and
+                      learning in public on GitHub.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1.5 size-2 shrink-0 rounded-full bg-accent" aria-hidden="true"></span>
+                  <div>
+                    <p class="text-sm font-medium">Building complete, shipped projects · 2026</p>
+                    <p class="mt-0.5 text-sm leading-relaxed text-muted">
+                      Shipping tools from idea to deployment: conversion logic, UI states, docs, and
+                      hosting on GitHub Pages.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1.5 size-2 shrink-0 rounded-full bg-accent" aria-hidden="true"></span>
+                  <div>
+                    <p class="text-sm font-medium">Next up: TypeScript, Next.js &amp; architecture</p>
+                    <p class="mt-0.5 text-sm leading-relaxed text-muted">
+                      Going deeper into typed applications, App Router patterns, testing, and
+                      maintainable design systems.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </section>
+
+            <!-- Education + languages -->
+            <div class="grid gap-6 sm:grid-cols-2">
+              <section class="print-break" aria-labelledby="education-heading">
+                <h2 id="education-heading" class="resume-heading">Education</h2>
+                <p class="mt-3 text-sm font-medium">Secondary student · Indonesia</p>
+                <p class="mt-1 text-sm leading-relaxed text-muted">
+                  Currently completing secondary education while studying web development
+                  independently.
+                </p>
+              </section>
+              <section class="print-break" aria-labelledby="languages-heading">
+                <h2 id="languages-heading" class="resume-heading">Languages</h2>
+                <ul class="mt-3 space-y-2 text-sm">
+                  <li class="flex items-center justify-between gap-3">
+                    <span>Indonesian</span><span class="font-mono text-[0.62rem] text-faint">Native</span>
+                  </li>
+                  <li class="flex items-center justify-between gap-3">
+                    <span>English</span
+                    ><span class="font-mono text-[0.62rem] text-faint">Reading &amp; writing</span>
+                  </li>
+                </ul>
+              </section>
+            </div>
+
+            <!-- Availability -->
+            <section
+              class="print-break rounded-xl border border-accent/25 bg-accent/5 p-4"
+              aria-labelledby="availability-heading"
+            >
+              <h2 id="availability-heading" class="resume-heading !text-accent">Availability</h2>
+              <p class="mt-2 text-sm leading-relaxed text-muted">
+                Open to internships, junior frontend opportunities, freelance work, and
+                collaborations — remote or based in Indonesia. The fastest way to reach me is
+                <a href="mailto:faizsyaifulwafa@gmail.com" class="link-underline">email</a>.
+              </p>
+            </section>
+          </div>
+
+          <footer class="border-t border-line px-6 py-4 sm:px-8">
+            <p class="font-mono text-[0.6rem] text-faint">
+              Last updated October 2026 · References and code samples available on GitHub.
+            </p>
+          </footer>
+        </article>
+      </main>
+
+      <p class="no-print mt-6 text-center text-xs text-faint">
+        <a href="index.html" class="transition hover:text-accent">← Back to faiz.dev</a>
+      </p>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+<symbol id="b-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452z"/></symbol>
+<symbol id="b-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" /></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></symbol>
+<symbol id="i-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10" />
+  <path d="M7 17 17 7" /></symbol>
+<symbol id="i-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" />
+  <path d="M19 12H5" /></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+  <rect x="2" y="4" width="20" height="16" rx="2" /></symbol>
+<symbol id="i-external-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" />
+  <path d="M10 14 21 3" />
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></symbol>
+<symbol id="i-paw-print" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2" />
+  <circle cx="18" cy="8" r="2" />
+  <circle cx="20" cy="16" r="2" />
+  <path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" /></symbol>
+<symbol id="i-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" /></symbol>
+<symbol id="i-printer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+  <path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6" />
+  <rect x="6" y="14" width="12" height="8" rx="1" /></symbol>
+</svg>
+
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
