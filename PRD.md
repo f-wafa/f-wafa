@@ -1,5 +1,5 @@
 # Product Requirement Document (PRD)
-## Personal Portfolio Website — Faiz Syaiful Wafa
+## Personal Portfolio Website ï¿½ Faiz Syaiful Wafa
 
 ---
 
@@ -9,7 +9,7 @@
 Dokumen ini merupakan spesifikasi kebutuhan produk untuk pembuatan **Personal Portfolio Website** bagi **Faiz Syaiful Wafa** (`f-wafa`). Website ini dirancang sebagai platform pamer karya (*showcase*) profesional yang minimalis, cepat, dan interaktif untuk menarik perhatian *recruiter* serta memberikan impresi positif bagi sesama *developer*.
 
 ### 1.2 Core Objectives
-* **Branding & Identity:** Menampilkan identitas Faiz sebagai *Frontend Developer in training & Tech Enthusiast* yang terus berkembang.
+* **Branding & Identity:** Menampilkan identitas Faiz sebagai *Fullstack Developer in training & Tech Enthusiast* yang terus berkembang.
 * **Showcase Skills & Experience:** Menyajikan keahlian teknis (JavaScript, TypeScript, React, Next.js, Tailwind CSS) serta media sosial secara terstruktur.
 * **Recruiter Conversion:** Memudahkan *recruiter* mengakses resume, proyek unggulan, dan tautan kontak/LinkedIn secara instan.
 * **Memorable Experience:** Menyediakan *micro-interactions* serta *easter egg* unik khas pengguna (seperti tema kucing / *interactive cat easter egg*) tanpa mengorbankan fungsionalitas dan performa.
@@ -20,7 +20,7 @@ Dokumen ini merupakan spesifikasi kebutuhan produk untuk pembuatan **Personal Po
 
 | Persona | Motivation / Goal | Key Needs |
 | :--- | :--- | :--- |
-| **Tech Recruiter / HR** | Mencari kandidat Frontend Developer yang paham fundamental web, cepat memuat halaman, dan terorganisir. | Akses cepat ke kontak, LinkedIn, GitHub, daftar proyek, dan resume downloadable. |
+| **Tech Recruiter / HR** | Mencari kandidat Fullstack Developer yang paham fundamental web, cepat memuat halaman, dan terorganisir. | Akses cepat ke kontak, LinkedIn, GitHub, daftar proyek, dan resume downloadable. |
 | **Peer Developer / Tech Enthusiast** | Menilai kualitas kode, estetika UI/UX, kebersihan struktur HTML/CSS/JS, dan kreativitas *micro-interaction*. | Fitur interaktif unik, animasi halus, struktur HTML semantik, dan kebersihan Tailwind. |
 
 ---
@@ -29,7 +29,7 @@ Dokumen ini merupakan spesifikasi kebutuhan produk untuk pembuatan **Personal Po
 
 * **Frontend Structure:** Standard Semantic HTML5
 * **Styling Framework:** Tailwind CSS (via CDN / PostCSS Build)
-* **Scripting & Interactivity:** Vanilla JavaScript (ES6+) — *Tanpa framework berat untuk performa maksimal dan beban muat cepat*
+* **Scripting & Interactivity:** Vanilla JavaScript (ES6+) ï¿½ *Tanpa framework berat untuk performa maksimal dan beban muat cepat*
 * **Deployment & Hosting:** Vercel / GitHub Pages
 * **Iconography:** Lucide Icons / Simple Icons (SVG Inline)
 
@@ -61,7 +61,7 @@ Website terdiri dari **Single Page Application (SPA) Scroll Layout** dengan navi
 ```
 
 ### 5.1 Navbar (Header)
-* **Brand Logo:** `Faiz.dev` / `<FW />`
+* **Brand Logo:** `Faiz.dev` / `assets/logo.svg`
 * **Nav Links:** `About`, `Skills`, `Projects`, `Stats`, `Contact`
 * **Actions:**
   * Dark/Light Mode Toggle Switch
@@ -69,7 +69,7 @@ Website terdiri dari **Single Page Application (SPA) Scroll Layout** dengan navi
 
 ### 5.2 Hero Section
 * **Greeting:** `"Hi there!  I'm Faiz Syaiful Wafa"`
-* **Headline:** `"Frontend Developer in Training & Tech Enthusiast"`
+* **Headline:** `"Fullstack Developer in Training & Tech Enthusiast"`
 * **Sub-headline:** *"Passionate about crafting clean UI, exploring modern web techs, and building interactive web experiences."*
 * **Call to Action (CTA) Buttons:**
   * `[ Explore Projects ]` (Scroll smooth ke section projects)
@@ -90,7 +90,7 @@ Menampilkan keahlian teknis dalam bentuk *interactive grid badges* atau *icon ca
 * **Tools & Platforms:** Git, GitHub, NPM, Figma, Canva, Vercel, GitHub Pages.
 
 ### 5.5 Projects Section (Showcase)
-* **Filter Tag System:** `All`, `React/Next.js`, `Vanilla JS`, `Tailwind`.
+* **Filter Tag System:** `All`, `Vanilla JS`, `Tailwind`.
 * **Project Card Layout:**
   * Thumbnail Preview Image
   * Project Title & Short Description
@@ -111,7 +111,7 @@ Menampilkan keahlian teknis dalam bentuk *interactive grid badges* atau *icon ca
   * GitHub: `github.com/f-wafa`
   * Support: `buymeacoffee.com/izzpaiizzz`
   * Socials: Instagram (`@izzpaiizzz`), TikTok (`@izzpaiizzz`), YouTube (`@izzpaiiizzzz`)
-* **Footer Text:** `© 2026 Faiz Syaiful Wafa. Crafted with HTML, Tailwind CSS & Vanilla JS.`
+* **Footer Text:** `ï¿½ 2026 Faiz Syaiful Wafa. Crafted with HTML, Tailwind CSS & Vanilla JS.`
 * **Easter Egg:** Interactive Cat Icon dengan animasi interaktif.
 
 ---

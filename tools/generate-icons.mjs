@@ -15,7 +15,6 @@ const BRANDS = [
   "youtube",
   "buymeacoffee",
   "html5",
-  "css",
   "javascript",
   "typescript",
   "react",
@@ -27,9 +26,7 @@ const BRANDS = [
   "git",
   "npm",
   "figma",
-  "canva",
   "vercel",
-  "githubpages",
 ];
 
 const UI = [
@@ -101,9 +98,15 @@ function inner(svg) {
 
 const symbols = [];
 
-/* LinkedIn was removed from Simple Icons; keep the classic glyph inline. */
+/* LinkedIn and CSS3 were removed from Simple Icons; keep the classic glyphs inline. */
 symbols.push(
   `  <symbol id="b-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452z"/></symbol>`,
+);
+symbols.push(
+  `  <symbol id="b-css3" viewBox="0 0 24 24" fill="currentColor"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></symbol>`,
+);
+symbols.push(
+  `  <symbol id="b-canva" viewBox="0 0 80 80" fill="currentColor"><title>Canva</title><path d="M57.27 48.205c-.331 0-.622.279-.924.888c-3.414 6.922-9.31 11.82-16.133 11.82c-7.89 0-12.776-7.122-12.776-16.96c0-16.668 9.286-26.304 17.443-26.304c3.811 0 6.139 2.395 6.139 6.207c0 4.524-2.57 6.919-2.57 8.514c0 .716.445 1.15 1.328 1.15c3.55 0 7.715-4.078 7.715-9.84c0-5.585-4.862-9.691-13.018-9.691c-13.48 0-25.46 12.497-25.46 29.788c0 13.384 7.643 22.23 19.436 22.23c12.517 0 19.754-12.454 19.754-16.497c0-.895-.457-1.305-.935-1.305"/></symbol>`,
 );
 
 for (const name of BRANDS) {

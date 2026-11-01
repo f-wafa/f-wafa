@@ -418,6 +418,17 @@
     opacity: 1;
     translate: -50% 0;
   }
+
+  .tooltip-bottom::after {
+    top: calc(100% + 8px);
+    bottom: auto;
+    translate: -50% -4px;
+  }
+
+  .tooltip-bottom:hover::after,
+  .tooltip-bottom:focus-visible::after {
+    translate: -50% 0;
+  }
 }
 
 /* ------------------------------------------------------------------ */

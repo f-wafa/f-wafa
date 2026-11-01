@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Faiz Syaiful Wafa — portfolio interactions
+   Faiz Syaiful Wafa - portfolio interactions
    Vanilla JavaScript, no dependencies.
    ========================================================================== */
 (() => {
@@ -835,7 +835,17 @@
       return;
     }
 
+    if (event.key === "Escape" && palette?.open) {
+      event.preventDefault();
+      closePalette();
+      return;
+    }
+
     if (isTyping(event.target) || event.ctrlKey || event.metaKey || event.altKey) {
+      return;
+    }
+
+    if (palette?.open) {
       return;
     }
 
@@ -855,10 +865,10 @@
         g: "#stats",
         c: "#contact",
       };
+      sequence = "";
+      window.clearTimeout(sequenceTimer);
       if (map[key]) {
         event.preventDefault();
-        sequence = "";
-        window.clearTimeout(sequenceTimer);
         const target = document.querySelector(map[key]);
         target?.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth" });
         history.replaceState(null, "", map[key]);
@@ -872,6 +882,26 @@
       sequenceTimer = window.setTimeout(() => {
         sequence = "";
       }, 1200);
+      return;
+    }
+
+    // Single-key actions advertised in the command palette.
+    const actions = {
+      t: toggleTheme,
+      c: () => copyEmail(),
+      r: () => {
+        window.location.href = "resume.html";
+      },
+      p: () => {
+        if (!catButton) return;
+        petCat();
+        $("#cat-button")?.focus({ preventScroll: true });
+      },
+    };
+
+    if (actions[key]) {
+      event.preventDefault();
+      actions[key]();
     }
   });
 
