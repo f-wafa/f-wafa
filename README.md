@@ -1,6 +1,6 @@
 <div align="center">
 
-# `Hi there! 👋 I'm Faiz`
+# `Hi there! 👋 I'm Faiz.`
   *`Fullstack Developer in training & Tech Enthusiast`*
 
 ---
